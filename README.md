@@ -9,9 +9,9 @@ This script retrieves the current weather for Lucknow from wttr.in, a web-based 
 # Usage
 1.	Save the following code in a .bat file (e.g., WeatherCheck.bat):
 
-@echo off
-curl wttr.in/{Your City Name}
-pause
+    @echo off
+    curl wttr.in/{Your City Name}
+    pause
 
 2.	Run the script by double-clicking the .bat file or executing it from the command line.
 
